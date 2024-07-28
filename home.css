@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+}
+
+
+.banner{
+    background-color: rgba(41, 212, 227, 0.7);
+    padding: 2px 20px 2px 20px;
+}
+
+.banner-text{
+    display: inline-block;
+    padding: auto;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.banner-nav{
+    list-style-type: none;
+    display: inline;
+}
+
+.banner-list{
+    float:right;
+    padding: 4px;
+}
+
+.container{
+    margin: 0;
+}
+
+.main-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.logo{
+    display: block;
+    margin: 12px 2px 2px 12px;
+    height:40px;
+    width: 110px;
+}
+
+.main-nav-ul{
+    list-style-type: none;
+    display: inline;
+}
+
+.main-list{
+    float:left;
+}
+
+.main-a{
+    display: inline-block;
+    padding: 3px 13px 3px 13px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search-inp{
+    display: block;
+    margin: 7px 3px 3px 10px;
+    padding: 4px;
+}
+
+.main-opt{
+    list-style-type: none;
+    display: inline;
+}
+
+.main-opt-list{
+    float: right;
+}
+
+
+.sub-nav{
+    padding-bottom: 11px;
+    margin-left: 110px;
+    margin-bottom: 10px;
+}
+
+.sub-nav-list{
+    float: left;
+    color: rgb(139, 129, 129);
+
+}
+
+.sub-a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 7px 2px 7px;
+    padding: 2px 13px 2px 13px;
+}
+
+
+.content{
+
+}
+
+.title-content{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.spotlight-img{
+    width: 90%;
+    margin-left: 55px;
+}
+
+.launches-div{
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    align-content: center;
+    margin-left: 60px;
+}
+
+.launches-img{
+    display: inline-block;
+    padding: 4px;
+    height: 30%;
+    width: 30%;
+}
+
+.footer{
+    color:  rgb(139, 129, 129);
+    padding: 10px;
+}
+
+.desc-text{
+    font-size: 14px;
+    /* text-indent: 50px; */
+    line-height: 1.3;
+    margin: 2px 30px 2px 30px;
+}
+
+.copyright{
+    background-color: rgba(23, 21, 21, 0.895);
+    height: 120px;
+}
+
+.copyright-menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-list{
+    color: whitesmoke;
+    
+}
+
+.copyright-a{
+    display: inline-block;
+    padding: 13px;
+    margin-top: 13px;
+    font-size: 13px;
+}
+
+.copyright-text{
+    text-align: center;
+    font-weight: 100;
+    font-size: small;
+    color: rgb(112, 108, 108);
+    padding-bottom: 9px;
+}
