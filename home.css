@@ -46,7 +46,9 @@ body{
 
 .main-nav-ul{
     list-style-type: none;
-    display: inline;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .main-list{
@@ -58,6 +60,10 @@ body{
     padding: 3px 13px 3px 13px;
     text-decoration: none;
     font-weight: bold;
+}
+
+.main-a:hover{
+    color:rgb(245, 11, 144);
 }
 
 .search-inp{
@@ -77,9 +83,7 @@ body{
 
 
 .sub-nav{
-    padding-bottom: 11px;
-    margin-left: 110px;
-    margin-bottom: 10px;
+    
 }
 
 .sub-nav-list{
@@ -91,9 +95,13 @@ body{
 .sub-a{
     text-decoration: none;
     display: inline-block;
-    margin: 2px 7px 2px 7px;
-    padding: 2px 13px 2px 13px;
+    padding: 0px 13px 0px 13px;
 }
+
+.sub-a:hover{
+    color:rgb(245, 11, 144);
+    font-weight: bold;
+} 
 
 
 .content{
